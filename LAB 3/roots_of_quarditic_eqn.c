@@ -10,15 +10,15 @@ int main(void)
     scanf("%d%d%d",&a,&b,&c);
     d=b*b-4*a*c;
     if (d>0){
-        printf("the quarditic equation has 2 distinct roots");
+        printf("the quarditic equation has 2 distinct roots\n");
         r1 = (-b + sqrt(d)) / (2 * a);
         r2 = (-b - sqrt(d)) / (2 * a);
-        printf("these roots are: %2.f,%2.f",r1,r2);
+        printf("these roots are: %.2f,%.2f",r1,r2);
     }
     else if (d==0){
-        printf("the quarditic has 2 equal roots");
-        r1=-b/(2.0*a);
-        printf("these roots are: %2.f",r1);
+        printf("the quarditic has 2 equal roots\n1");
+        r1=r2=-b/(2.0*a);
+        printf("these roots are: %.2f",r1);
 
     }
     else {printf("the roots are imaginary");}

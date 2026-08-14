@@ -21,7 +21,7 @@ int main(void)
     else if (N>=3&&N<=4){
         printf("D grade");
     }
-    else if (N>=0&&N<=3){
+    else if (N>=0&&N<=2){
         printf("F grade");
     }
     else {

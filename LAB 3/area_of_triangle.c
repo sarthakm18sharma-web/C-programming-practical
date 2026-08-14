@@ -7,16 +7,16 @@ int main(void)
 
 {
     float a,b,c,area;
-    printf("enter the 1st length of the triangle");
+    printf("enter the 1st side length of the triangle");
     scanf("%f",&a);
-    printf("enter the 2nd length of the triangle");
+    printf("enter the 2nd side length of the triangle");
     scanf("%f",&b);
-    printf("enter the 3rd length of the triangle");
+    printf("enter the 3rd side length of the triangle");
     scanf("%f",&c);
     if ((a+b>c)&&(a+c>b)&&(b+c>a))
         {
         area=(a+b+c)/2;
-        printf("the area of triangle is: %f",area);
+        printf("the area of triangle is: %.2f",area);
     }
     else
         {
