@@ -32,6 +32,6 @@ int main(void)
             break;
     }
 
-
+    getch();
     return 0;
 }
