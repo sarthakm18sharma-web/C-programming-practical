@@ -23,6 +23,6 @@ int main(void)
     {
         printf("the year is not a leap year");
     }
-    getch()
+    getch();
     return 0;
 }
